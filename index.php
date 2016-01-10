@@ -12,8 +12,8 @@ function forma() {
 }
 function fondo() {
 	echo"<br><br><br><br>";
-	echo"Script Realizzato da <a href=\"http://ryujiandy.i2cttl.com\">RyujiAndy</a>, grazie all'algoritmo di <a href=\"https://www.reboot.ms/forum/members/student.1250/\">student</a><br>";
-	echo"<a href=\"https://www.reboot.ms/forum/articles/\">Reboot.ms</a> &#169;2014-2015 <a href=\"http://svn.i2cttl.com/websvn/listing.php?repname=repos+1&path=%2FScript_Web%2Famiibo_pass%2F&#adcbf33fb8fcbb5c23e15d8744fced7b0\">Source Script</a>";
+	echo"Script Realizzato da <a href=\"https://www.i2cttl.com\">RyujiAndy</a>, grazie all'algoritmo di <a href=\"https://www.reboot.ms/forum/members/student.1250/\">student</a><br>";
+	echo"<a href=\"https://www.reboot.ms/forum/articles/\">Reboot.ms</a> &#169;2014-2015 <a href=\"https://git.i2cttl.com/ryujiandy/amiibo_pass\">Source Script</a>";
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
