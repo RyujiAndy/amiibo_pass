@@ -1,3 +1,3 @@
-Example: https://www.i2cttl.com/ap
+Example: http://amiibo.reboot.ms/
 
-Usage: https://www.i2cttl.com/ap/?UID=[UID amibo]
+Usage: http://amiibo.reboot.ms/?UID=[UID amibo]
