@@ -34,8 +34,8 @@ function fondo() {
 		echo"<img src=\"http://www.reboot.ms/forum/styles/arduinoux/arduinoux/logo.png\">";
 		echo"<br><br><br>";
 	}
-	if (isset($_GET['UID'])) {
-		$script = "./amiibo_pass ".explode('|', $_GET['UID'])[0];
+	if (isset($_GET['UID']) && ctype_xdigit($_GET['UID'])) {
+		$script = "./amiibo_pass ".$_GET['UID'];
 		$output = shell_exec($script);
 		if(isset($_GET['site'])) {
 			forma();
