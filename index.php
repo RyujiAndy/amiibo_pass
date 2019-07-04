@@ -35,7 +35,7 @@ function fondo() {
 		echo"<br><br><br>";
 	}
 	if (isset($_GET['UID'])) {
-		$script = "./amiibo_pass ".$_GET['UID'];
+		$script = "./amiibo_pass ".explode('|', $_GET['UID'])[0];
 		$output = shell_exec($script);
 		if(isset($_GET['site'])) {
 			forma();
